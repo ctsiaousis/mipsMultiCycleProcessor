@@ -27,13 +27,13 @@ $ cd mipsMultiCycleProcessor/xilinxProject
 ```
 
 ## Design
-The CPU implements a subset of MIPS architecture instructions.
-More specifically:
+* The CPU implements a subset of MIPS architecture instructions. More specifically:
+
 ![Instruction schema](./images/instructions.png)
 
-The Design is fairly simple and can also be viewed from the ISE. A simplified datapath is like so:
+* The Design is fairly simple and can also be viewed from the ISE. A simplified datapath is like so:
 ![Datapath schema](./images/simpleDatapath.png)
-Also the Datapath is auto controlled by a multiCycle FSM(state machine).
+* Also the Datapath is auto controlled by a multiCycle FSM(state machine).
 ![Control schema](./images/mcCONTROLfsm.png)
 
 ## Example
