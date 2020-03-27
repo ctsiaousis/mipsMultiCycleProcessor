@@ -1,0 +1,82 @@
+Running: C:\Xilinx\13.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o U:/6o/ORGANWSH/LAB4/LAB4_impl/procTEST_isim_beh.exe -prj U:/6o/ORGANWSH/LAB4/LAB4_impl/procTEST_beh.prj work.procTEST 
+ISim O.87xd (signature 0xc3576ebc)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/dec3to8.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/dec2to4.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/register32BIT.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/decoder5to32.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/zeroCHECK.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/shiftBOX.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/noMuxBox.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/mux32.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/logicBOX.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/arithBOX.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/aluMUX.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/RF.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/PC.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/mux2to1noCLK.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/memory.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/ifBOXadder.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/genericREG.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/convertIMMED.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/ByteMaker.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/ALU.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/add0x400.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/memoryBOX.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/IFbox.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/exceptionHANDLER.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/DECODEbox.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/ALUbox.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/DATAPATH.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/CONTROL_fsm.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/PROCESSOR.vhd" into library work
+Parsing VHDL file "U:/6o/ORGANWSH/LAB4/LAB4_impl/procTEST.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture stages of entity CONTROL_fsm [control_fsm_default]
+Compiling architecture behavioral of entity Mux2to1noCLK [\Mux2to1noCLK(31)\]
+Compiling architecture behavioral of entity genericREG [\genericREG(31)\]
+Compiling architecture behavioral of entity exceptionHANDLER [exceptionhandler_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package std_logic_signed
+Compiling architecture behavioral of entity zeroCHECK [zerocheck_default]
+Compiling architecture behavioral of entity aluMUX [alumux_default]
+Compiling architecture behavioral of entity shiftBOX [\shiftBOX(1)\]
+Compiling architecture behavioral of entity logicBOX [logicbox_default]
+Compiling architecture behavioral of entity arithBOX [arithbox_default]
+Compiling architecture behavioral of entity ALU [alu_default]
+Compiling architecture behavioral of entity ALUbox [alubox_default]
+Compiling architecture behavioral of entity ByteMaker [bytemaker_default]
+Compiling architecture behavioral of entity dec2to4 [dec2to4_default]
+Compiling architecture behavioral of entity dec3to8 [dec3to8_default]
+Compiling architecture behavioral of entity decoder5to32 [decoder5to32_default]
+Compiling architecture behavioral of entity register32BIT [register32bit_default]
+Compiling architecture behavioral of entity noMuxBox [nomuxbox_default]
+Compiling architecture behavioral of entity mux32 [mux32_default]
+Compiling architecture behavioral of entity RF [rf_default]
+Compiling architecture behavioral of entity Mux2to1noCLK [\Mux2to1noCLK(4)\]
+Compiling architecture behavioral of entity extender [extender_default]
+Compiling architecture behavioral of entity DECODEbox [decodebox_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture syn of entity memory [memory_default]
+Compiling architecture behavioral of entity add0x400 [add0x400_default]
+Compiling architecture behavioral of entity memoryBOX [memorybox_default]
+Compiling architecture behavioral of entity PC [pc_default]
+Compiling architecture behavioral of entity ifBOXadder [ifboxadder_default]
+Compiling architecture behavioral of entity IFbox [ifbox_default]
+Compiling architecture behavioral of entity DATAPATH [datapath_default]
+Compiling architecture behavioral of entity PROCESSOR [processor_default]
+Compiling architecture behavior of entity proctest
+Time Resolution for simulation is 1ps.
+Waiting for 13 sub-compilation(s) to finish...
+Compiled 69 VHDL Units
+Built simulation executable U:/6o/ORGANWSH/LAB4/LAB4_impl/procTEST_isim_beh.exe
+Fuse Memory Usage: 47184 KB
+Fuse CPU Usage: 1765 ms

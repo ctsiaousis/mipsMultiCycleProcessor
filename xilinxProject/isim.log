@@ -1,0 +1,27 @@
+ISim log file
+Running: U:\6o\ORGANWSH\LAB4\LAB4_impl\procTEST_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb U:/6o/ORGANWSH/LAB4/LAB4_impl/procTEST_isim_beh.wdb 
+ISim O.87xd (signature 0xc3576ebc)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/offsetER/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/offsetER/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 0 ps, Instance /proctest/uut/path/memorySTAGE/mnim/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# run 1.00us
